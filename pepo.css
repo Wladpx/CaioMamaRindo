@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Aumenta o tamanho da logo */
+  height: auto; /* Mantém a proporção da logo */
+  margin-right: 15px; /* Espaço entre a logo e o texto */
+}
+
+.text-contour {
+  color: white; /* Cor do texto */
+  text-shadow: 
+      -2px -2px 0 #000,  
+       2px -2px 0 #000,
+      -2px  2px 0 #000,
+       2px  2px 0 #000; /* Contorno preto */
+}
+
+.text-contour2 /* Contorno menor */ {
+  color: white; /* Cor do texto */
+  text-shadow: 
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000; /* Contorno preto */
+}
+
+.logo h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 30px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.banner {
+  width: 50%; /* Ajusta a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+/* Seção Home */
+.section-home {
+  background-color: #333;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Permite que os itens se empilhem verticalmente */
+  align-items: center; /* Centraliza horizontalmente o conteúdo */
+  position: relative; /* Permite o posicionamento absoluto da imagem */
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-content {
+  width: 50%; /* Ajusta a largura do texto */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.text-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0; /* Alinha ao fundo da seção */
+  right: 0; /* Alinha à direita da seção */
+  width: 20%; /* Ajusta o tamanho da imagem conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0px; /* Espaço ao redor da imagem */
+}
+
+
+
+/* Seção Menu */
+.section-menu {
+  background-color: #ff6f61; 
+  color: white;
+  padding: 100px 20px; 
+  text-align: center;
+  min-height: 100vh; 
+  position: relative; /* Necessário para o posicionamento absoluto do .Gatinho */
+}
+.Gatinho {
+  position: absolute; /* Posicionamento absoluto */
+  bottom: 0; /* Alinha ao fundo da seção */
+  right: 0; /* Alinha à direita da seção */
+  width: 200px; /* Define a largura */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.banner2 {
+  width: 70%; /* Ajusta a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Seção About Us */
+.section-about {
+  background-color: #333; /* Cor de fundo da terceira seção */
+  color: white; /* Cor do texto */
+  padding: 100px 20px; /* Espaçamento interno da seção */
+  text-align: center;
+  min-height: 100vh; /* Garante que a seção ocupe toda a altura da tela */
+}
+
+
+.navbar{
+  display: flex;
+
+  align-items: center;
+  
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2em; /* Tamanho da fonte do título */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+  margin-bottom: 20px;
+}
+
+
+h2 {
+  color: #ff6f61;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
